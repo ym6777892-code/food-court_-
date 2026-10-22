@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>FOOD COURT | Zamalek Promenade</title>
+  <meta name="description" content="FOOD COURT – ممشى الزمالك: خمسة مطاعم في مكان واحد. Five restaurants in one place.">
+  <meta name="theme-color" content="#faf6ef">
+
+  <!-- Canonical: uncomment and fill ONLY when the real published URL is known -->
+  <!-- <link rel="canonical" href="https://USERNAME.github.io/REPO/"> -->
+
+  <!-- Open Graph. og:image must be an absolute URL, so add it after publishing:
+       <meta property="og:image" content="https://USERNAME.github.io/REPO/food_court_logo.jpg"> -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FOOD COURT | Zamalek Promenade">
+  <meta property="og:description" content="FOOD COURT – ممشى الزمالك: خمسة مطاعم في مكان واحد.">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="food_court_logo.jpg">
+  <link rel="apple-touch-icon" href="food_court_logo.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="watermark" aria-hidden="true"></div>
+
+  <a class="skip" href="#restaurants" data-i18n="skip">تخطَّ إلى المطاعم</a>
+
+  <header class="topbar">
+    <div class="wrap topbar__in">
+      <span class="topbar__brand">FOOD COURT</span>
+      <div class="topbar__actions">
+        <a id="instagram-link" class="icon-btn" href="#" target="_blank" rel="noopener noreferrer" data-i18n-aria="instagramAria">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+        <button id="lang-toggle" class="lang-btn" type="button" data-i18n-aria="langAria">
+          <span data-i18n="langBtn">English</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <img class="hero__logo" src="food_court_logo.jpg" width="340" height="136" alt="" data-i18n-alt="logoAlt" fetchpriority="high">
+      <h1 id="hero-title" class="hero__title">FOOD COURT</h1>
+      <p class="hero__ar" lang="ar" dir="rtl">ممشى الزمالك</p>
+      <p class="hero__headline" data-i18n="heroHeadline">اكتشف مطعمك المفضل في مكان واحد.</p>
+      <p class="hero__desc" data-i18n="heroDesc">استكشف مجموعة متنوعة من المطاعم في مكان واحد مع FOOD COURT – ممشى الزمالك.</p>
+      <a class="cta" href="#restaurants">
+        <span data-i18n="cta">اكتشف المطاعم</span>
+        <svg class="arrow" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="transform:rotate(90deg)"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </section>
+
+    <section id="restaurants" class="restaurants wrap" aria-labelledby="rest-title">
+      <h2 id="rest-title" class="section-title" data-i18n="sectionTitle">مطاعمنا</h2>
+      <div id="cards" class="cards"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <p data-i18n="footer">FOOD COURT – ممشى الزمالك</p>
+      <a id="instagram-footer" class="footer__ig" href="#" target="_blank" rel="noopener noreferrer" data-i18n="instagramText">تابعنا على إنستجرام</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
